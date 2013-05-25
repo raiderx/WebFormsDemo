@@ -6,7 +6,7 @@ namespace Core.Views
 {
 	public interface IUsersView
 	{
-		IList<User> Users { get; set; }
+		IList<User> Users { set; }
 	}
 }
 

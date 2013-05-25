@@ -19,7 +19,10 @@ namespace Core.Presenters
 		{
 			_view.Users = new List<User>
 			{
-				new User { FirstName = "John", LastName = "Martin", Email = "john.martin@mail.com"}
+				new User { FirstName = "Leonard", LastName = "Hofstadter", Email = "leonard.hofstadter@mail.com"},
+				new User { FirstName = "Sheldon", LastName = "Cooper", Email = "sheldon.cooper@mail.com"},
+				new User { FirstName = "Howard", LastName = "Wolowitz", Email = "howard.wolowitz@mail.com"},
+				new User { FirstName = "Raj", LastName = "Koothrappali", Email = "raj.koothrappali@mail.com"}
 			};
 		}
 	}

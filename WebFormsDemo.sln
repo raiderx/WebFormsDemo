@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Tests", "Core.Tests\Core.Tests.csproj", "{33962A7F-FA73-4A76-A99B-888E6924C193}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormsDemo", "WebFormsDemo\WebFormsDemo.csproj", "{B9AD1A39-02FF-4499-87EE-1B18977DDA9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,8 +21,12 @@ Global
 		{918E99C7-47F3-48C1-8873-C9F58293F483}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{918E99C7-47F3-48C1-8873-C9F58293F483}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{918E99C7-47F3-48C1-8873-C9F58293F483}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9AD1A39-02FF-4499-87EE-1B18977DDA9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9AD1A39-02FF-4499-87EE-1B18977DDA9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9AD1A39-02FF-4499-87EE-1B18977DDA9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9AD1A39-02FF-4499-87EE-1B18977DDA9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Core.Tests\Core.Tests.csproj
+		StartupItem = WebFormsDemo\WebFormsDemo.csproj
 	EndGlobalSection
 EndGlobal
