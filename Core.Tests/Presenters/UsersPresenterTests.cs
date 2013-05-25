@@ -20,8 +20,10 @@ namespace Core.Tests
 		}
 		
 		[Test]
-		public void Test()
+		public void TestInit()
 		{
+			_presenter.Init();
+			_view.VerifySet(x => x.Users);
 		}
 	}
 }
