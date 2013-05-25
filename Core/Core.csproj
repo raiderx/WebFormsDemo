@@ -35,10 +35,12 @@
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Views\IUsersView.cs" />
     <Compile Include="Presenters\UsersPresenter.cs" />
+    <Compile Include="Model\User.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Views\" />
     <Folder Include="Presenters\" />
+    <Folder Include="Model\" />
   </ItemGroup>
 </Project>
