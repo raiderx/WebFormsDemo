@@ -4,7 +4,7 @@ using Moq;
 using NUnit.Framework;
 using System;
 
-namespace Core.Tests
+namespace Core.Tests.Presenters
 {
 	[TestFixture]
 	public class UsersPresenterTests
